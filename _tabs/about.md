@@ -1,11 +1,22 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
 ---
 
-Hello, I'm Magor. I am currently a highschool student, living in Hungary.
+## Hey there
 
-I enjoy tinkering with technology
+I'm **Magor**, a 10th grader from Hungary who got into tech early — both my parents are IT teachers, so it was hard to avoid. I try to make my projects as cheap as possible without cutting corners that matter.
 
+### What I'm up to
 
+**Home Assistant** — My proudest project. Lights, sensors, automation, the whole smart home stack built from scratch.
+
+**3D printing** — Heavily modded Ender 3, somewhat modded Ender 6. Mostly PLA and PETG.
+
+**Coding** — Python mostly, some TypeScript, the usual HTML/CSS. Getting into AI, planning to try embedded systems next.
+
+**Everything else** — CAD in Fusion 360, soldering through-hole boards, circuit design, and a homelab that keeps growing.
+
+### When I'm not at a keyboard
+
+Tennis and ping pong. Keeps things balanced.

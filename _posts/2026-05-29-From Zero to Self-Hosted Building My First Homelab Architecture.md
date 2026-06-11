@@ -1,6 +1,6 @@
 ---
 title: From Zero to Self-Hosted Building My First Homelab Architecture
-date: 2026-05-29 22:00:00 +2
+date: 2026-05-29 22:00:00 +0200
 tags: []     # TAG names should always be lowercase
 ---
 
