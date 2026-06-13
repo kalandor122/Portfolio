@@ -1,0 +1,1868 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {
+      "type": "text",
+      "id": "e1",
+      "x": 320,
+      "y": 20,
+      "width": 392.0,
+      "height": 32,
+      "text": "Magor's Homelab Architecture",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Magor's Homelab Architecture",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e2",
+      "x": 350,
+      "y": 80,
+      "width": 280,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e3",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e3",
+      "x": 360,
+      "y": 93,
+      "width": 260,
+      "height": 25,
+      "text": "\u2601  Cloudflare Tunnels",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e2",
+      "originalText": "\u2601  Cloudflare Tunnels",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e4",
+      "x": 530,
+      "y": 100,
+      "width": 84.0,
+      "height": 18,
+      "text": "magor-lab.hu",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "magor-lab.hu",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e5",
+      "x": 390,
+      "y": 170,
+      "width": 200,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e6",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e6",
+      "x": 400,
+      "y": 183,
+      "width": 180,
+      "height": 25,
+      "text": "\ud83c\udf10  ISP Router",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e5",
+      "originalText": "\ud83c\udf10  ISP Router",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e7",
+      "x": 500,
+      "y": 190,
+      "width": 84.0,
+      "height": 18,
+      "text": "Flat network",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Flat network",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e8",
+      "x": 490,
+      "y": 130,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e2",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e5",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e9",
+      "x": 30,
+      "y": 280,
+      "width": 240,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e10",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e10",
+      "x": 40,
+      "y": 293,
+      "width": 220,
+      "height": 25,
+      "text": "\ud83d\udda5  Node 1: Main Server",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e9",
+      "originalText": "\ud83d\udda5  Node 1: Main Server",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e11",
+      "x": 40,
+      "y": 330,
+      "width": 154.0,
+      "height": 18,
+      "text": "AMD A8-7600 \u00b7 16GB RAM",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "AMD A8-7600 \u00b7 16GB RAM",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e12",
+      "x": 40,
+      "y": 348,
+      "width": 161.0,
+      "height": 18,
+      "text": "Proxmox VE \u00b7 2\u00d7 1TB HDD",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Proxmox VE \u00b7 2\u00d7 1TB HDD",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e13",
+      "x": 300,
+      "y": 220,
+      "width": 150,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -150,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e5",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e9",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e14",
+      "x": 330,
+      "y": 280,
+      "width": 240,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e15",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e15",
+      "x": 340,
+      "y": 293,
+      "width": 220,
+      "height": 25,
+      "text": "\ud83c\udf53  Node 2: Raspberry Pi",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e14",
+      "originalText": "\ud83c\udf53  Node 2: Raspberry Pi",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e16",
+      "x": 340,
+      "y": 330,
+      "width": 147.0,
+      "height": 18,
+      "text": "RPi 4GB \u00b7 1TB USB HDD",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "RPi 4GB \u00b7 1TB USB HDD",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e17",
+      "x": 340,
+      "y": 348,
+      "width": 189.0,
+      "height": 18,
+      "text": "Home Assistant OS \u00b7 AdGuard",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Home Assistant OS \u00b7 AdGuard",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e18",
+      "x": 490,
+      "y": 220,
+      "width": 40,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -40,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e5",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e14",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e19",
+      "x": 630,
+      "y": 280,
+      "width": 240,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e20",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e20",
+      "x": 640,
+      "y": 293,
+      "width": 220,
+      "height": 25,
+      "text": "\ud83d\udcbb  Node 3: Dell Latitude",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e19",
+      "originalText": "\ud83d\udcbb  Node 3: Dell Latitude",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e21",
+      "x": 640,
+      "y": 330,
+      "width": 154.0,
+      "height": 18,
+      "text": "i3 \u00b7 Bare-metal Ubuntu",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "i3 \u00b7 Bare-metal Ubuntu",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e22",
+      "x": 640,
+      "y": 348,
+      "width": 210.0,
+      "height": 18,
+      "text": "Klipper \u00b7 Mainsail \u00b7 Moonraker",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Klipper \u00b7 Mainsail \u00b7 Moonraker",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e23",
+      "x": 490,
+      "y": 220,
+      "width": 260,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          260,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e5",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e19",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e24",
+      "x": 930,
+      "y": 280,
+      "width": 240,
+      "height": 50,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "roundness": {
+        "type": 3
+      },
+      "boundElements": [
+        {
+          "id": "e25",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e25",
+      "x": 940,
+      "y": 293,
+      "width": 220,
+      "height": 25,
+      "text": "\ud83d\udcbb  Node 4: Dell Latitude",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e24",
+      "originalText": "\ud83d\udcbb  Node 4: Dell Latitude",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e26",
+      "x": 940,
+      "y": 330,
+      "width": 154.0,
+      "height": 18,
+      "text": "i3 \u00b7 Bare-metal Ubuntu",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "i3 \u00b7 Bare-metal Ubuntu",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e27",
+      "x": 940,
+      "y": 348,
+      "width": 154.0,
+      "height": 18,
+      "text": "Coolify \u00b7 Hermes Agent",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Coolify \u00b7 Hermes Agent",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e28",
+      "x": 490,
+      "y": 220,
+      "width": 560,
+      "height": 60,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          560,
+          60
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e5",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e24",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e29",
+      "x": 30,
+      "y": 410,
+      "width": 240,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e30",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e30",
+      "x": 40,
+      "y": 414,
+      "width": 220,
+      "height": 25,
+      "text": "Proxmox VMs",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e29",
+      "originalText": "Proxmox VMs",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e31",
+      "x": 150,
+      "y": 370,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e9",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e29",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e32",
+      "x": 30,
+      "y": 460,
+      "width": 240,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e33",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e33",
+      "x": 40,
+      "y": 464,
+      "width": 220,
+      "height": 25,
+      "text": "Docker Host (VM)",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e32",
+      "originalText": "Docker Host (VM)",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e34",
+      "x": 150,
+      "y": 442,
+      "width": 0,
+      "height": 18,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e29",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e32",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e35",
+      "x": 290,
+      "y": 410,
+      "width": 160,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e36",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e36",
+      "x": 300,
+      "y": 414,
+      "width": 140,
+      "height": 25,
+      "text": "Samba VM",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e35",
+      "originalText": "Samba VM",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e37",
+      "x": 270,
+      "y": 426,
+      "width": 20,
+      "height": 0,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          20,
+          0
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e29",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e35",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e38",
+      "x": 30,
+      "y": 510,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e39",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e39",
+      "x": 40,
+      "y": 512,
+      "width": 35,
+      "height": 25,
+      "text": "Immich",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e38",
+      "originalText": "Immich",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e40",
+      "x": 90,
+      "y": 510,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e41",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e41",
+      "x": 100,
+      "y": 512,
+      "width": 35,
+      "height": 25,
+      "text": "Nextcloud",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e40",
+      "originalText": "Nextcloud",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e42",
+      "x": 150,
+      "y": 510,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e43",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e43",
+      "x": 160,
+      "y": 512,
+      "width": 35,
+      "height": 25,
+      "text": "KaraKeep",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e42",
+      "originalText": "KaraKeep",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e44",
+      "x": 210,
+      "y": 510,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e45",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e45",
+      "x": 220,
+      "y": 512,
+      "width": 35,
+      "height": 25,
+      "text": "Bitwarden",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e44",
+      "originalText": "Bitwarden",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e46",
+      "x": 30,
+      "y": 543,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e47",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e47",
+      "x": 40,
+      "y": 545,
+      "width": 35,
+      "height": 25,
+      "text": "Jellyfin",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e46",
+      "originalText": "Jellyfin",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e48",
+      "x": 90,
+      "y": 543,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e49",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e49",
+      "x": 100,
+      "y": 545,
+      "width": 35,
+      "height": 25,
+      "text": "*Arr",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e48",
+      "originalText": "*Arr",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e50",
+      "x": 150,
+      "y": 543,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e51",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e51",
+      "x": 160,
+      "y": 545,
+      "width": 35,
+      "height": 25,
+      "text": "qBit",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e50",
+      "originalText": "qBit",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e52",
+      "x": 210,
+      "y": 543,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e53",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e53",
+      "x": 220,
+      "y": 545,
+      "width": 35,
+      "height": 25,
+      "text": "Agent DVR",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e52",
+      "originalText": "Agent DVR",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e54",
+      "x": 30,
+      "y": 576,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e55",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e55",
+      "x": 40,
+      "y": 578,
+      "width": 35,
+      "height": 25,
+      "text": "Uptime Kuma",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e54",
+      "originalText": "Uptime Kuma",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e56",
+      "x": 90,
+      "y": 576,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e57",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e57",
+      "x": 100,
+      "y": 578,
+      "width": 35,
+      "height": 25,
+      "text": "Dozzle",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e56",
+      "originalText": "Dozzle",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e58",
+      "x": 150,
+      "y": 576,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e59",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e59",
+      "x": 160,
+      "y": 578,
+      "width": 35,
+      "height": 25,
+      "text": "Grafana",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e58",
+      "originalText": "Grafana",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e60",
+      "x": 210,
+      "y": 576,
+      "width": 55,
+      "height": 28,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e61",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e61",
+      "x": 220,
+      "y": 578,
+      "width": 35,
+      "height": 25,
+      "text": "Cloudflare",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e60",
+      "originalText": "Cloudflare",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e62",
+      "x": 150,
+      "y": 492,
+      "width": 0,
+      "height": 18,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          18
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e32",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e63",
+      "x": 330,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e64",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e64",
+      "x": 340,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "Home Assistant",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e63",
+      "originalText": "Home Assistant",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e65",
+      "x": 450,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e66",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e66",
+      "x": 460,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "AdGuard DNS",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e65",
+      "originalText": "AdGuard DNS",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e67",
+      "x": 450,
+      "y": 370,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e14",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e63",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e68",
+      "x": 630,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e69",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e69",
+      "x": 640,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "Klipper",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e68",
+      "originalText": "Klipper",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e70",
+      "x": 750,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e71",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e71",
+      "x": 760,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "Mainsail",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e70",
+      "originalText": "Mainsail",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e72",
+      "x": 750,
+      "y": 370,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e19",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e68",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "rectangle",
+      "id": "e73",
+      "x": 930,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e74",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e74",
+      "x": 940,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "Coolify",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e73",
+      "originalText": "Coolify",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e75",
+      "x": 1050,
+      "y": 410,
+      "width": 110,
+      "height": 32,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e76",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e76",
+      "x": 1060,
+      "y": 414,
+      "width": 90,
+      "height": 25,
+      "text": "Hermes Agent",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e75",
+      "originalText": "Hermes Agent",
+      "autoResize": true
+    },
+    {
+      "type": "arrow",
+      "id": "e77",
+      "x": 1050,
+      "y": 370,
+      "width": 0,
+      "height": 40,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          40
+        ]
+      ],
+      "endArrowhead": "arrow",
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "startBinding": {
+        "elementId": "e24",
+        "fixedPoint": [
+          0.5,
+          1
+        ]
+      },
+      "endBinding": {
+        "elementId": "e73",
+        "fixedPoint": [
+          0.5,
+          0
+        ]
+      }
+    },
+    {
+      "type": "text",
+      "id": "e78",
+      "x": 40,
+      "y": 680,
+      "width": 60.0,
+      "height": 24,
+      "text": "Legend",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "Legend",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e79",
+      "x": 40,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e80",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e80",
+      "x": 50,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Hardware",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e79",
+      "originalText": "Hardware",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e81",
+      "x": 180,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e82",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e82",
+      "x": 190,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Storage",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e81",
+      "originalText": "Storage",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e83",
+      "x": 320,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffd8a8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e84",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e84",
+      "x": 330,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Networking",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e83",
+      "originalText": "Networking",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e85",
+      "x": 460,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#c3fae8",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e86",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e86",
+      "x": 470,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Monitoring",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e85",
+      "originalText": "Monitoring",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e87",
+      "x": 600,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e88",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e88",
+      "x": 610,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Management",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e87",
+      "originalText": "Management",
+      "autoResize": true
+    },
+    {
+      "type": "rectangle",
+      "id": "e89",
+      "x": 740,
+      "y": 710,
+      "width": 120,
+      "height": 24,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "#ffc9c9",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roughness": 1,
+      "opacity": 100,
+      "boundElements": [
+        {
+          "id": "e90",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "e90",
+      "x": 750,
+      "y": 710,
+      "width": 100,
+      "height": 25,
+      "text": "Security",
+      "fontSize": 18,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "e89",
+      "originalText": "Security",
+      "autoResize": true
+    },
+    {
+      "type": "text",
+      "id": "e91",
+      "x": 40,
+      "y": 750,
+      "width": 360.0,
+      "height": 20,
+      "text": "\ud83d\udce6 Automated weekly backups \u00b7 2-week retention",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "strokeColor": "#1e1e1e",
+      "originalText": "\ud83d\udce6 Automated weekly backups \u00b7 2-week retention",
+      "autoResize": true
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}

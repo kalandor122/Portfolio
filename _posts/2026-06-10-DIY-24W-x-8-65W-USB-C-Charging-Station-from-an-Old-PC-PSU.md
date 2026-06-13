@@ -15,6 +15,9 @@ So I built my own charging station. Total cost: **~15,000 Ft** (~$40). It has:
 - All powered by a salvaged **(bought) 420W PC power supply**
 - Housed in a custom **3D printed case** designed in Fusion 360 and printed in PETG
 
+![Finished charging station](/assets/img/posts/charging-station-finished.jpg)
+*The completed charging station on the desk — eight USB-A ports, one USB-C PD, and a bench supply in one compact unit.*
+
 ![Wiring diagram](https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw)
 *(Click to open interactive wiring diagram in Excalidraw)*
 
@@ -28,11 +31,17 @@ The modules themselves all came from AliExpress:
 - **1× IP2368 module** — handles the 65W USB-C Power Delivery for my laptop. Negotiates PD properly so I can charge with a single USB-C cable.
 - **1× SK120X adjustable bench power supply** — gives me a variable output for breadboarding, testing, or any random project where a fixed voltage isn't enough.
 
+![Internal modules and wiring](/assets/img/posts/charging-station-internals.jpg)
+*The guts exposed — QC 3.0 boards, IP2368 PD module, and the SK120X bench supply wired to the ATX PSU.*
+
 ## The case
 
 I knew this needed a proper home. I started with a **Printables model** for the SK120X case, imported it into **Fusion 360**, and modelled the rest of the enclosure around **GrabCAD** files of the other modules. Every cutout, every screw hole, every port position matches the real hardware.
 
 The whole thing was printed on my **upgraded Ender 6** in **PETG**, tough enough to handle the warmth from eight concurrent fast charges without warping. The hand-drawn texture of 3D printing fits the vibe.
+
+![3D printed case close-up](/assets/img/posts/charging-station-case.jpg)
+*The custom 3D printed enclosure — every port cutout and screw hole designed in Fusion 360 to match the real modules.*
 
 ## Wiring: boring is good
 

@@ -12,6 +12,8 @@ Around the same time, I hit a completely different digital wall: my Google Photo
 
 Here is a breakdown of the entire infrastructure built from scratch, along with a deep reflection on every service running in the lab today.
 
+[Click to open interactive architecture diagram](https://excalidraw.com/#json=1OqsmmwloA736Fmd9TeWH,TqMcaSLIY9npygPiMjhGbQ)
+
 ---
 
 ### The Hardware Ecosystem: Resourceful and Repurposed
