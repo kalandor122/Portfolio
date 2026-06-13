@@ -1,5 +1,9 @@
 ---
 title: "DIY 24W × 8 + 65W USB-C Charging Station from an Old PC PSU"
+description: >-
+  Build a multi-port USB-C charging station from an old PC PSU and a 3D
+  printed case — 8x USB-A QC 3.0 ports, 1x 65W USB-C PD, and a lab bench
+  power supply for under $40.
 date: 2026-06-10
 author: "Füvesi Magor"
 tags: [diy, 3d-printing, electronics, charging-station, usb, usb-c, pd, psu]
