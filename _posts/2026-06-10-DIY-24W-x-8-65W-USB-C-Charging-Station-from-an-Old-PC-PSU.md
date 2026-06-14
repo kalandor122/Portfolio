@@ -18,11 +18,14 @@ So I built my own charging station. Total cost: **~15,000 Ft** (~$40). It has:
 - All powered by a salvaged **(bought) 420W PC power supply**
 - Housed in a custom **3D printed case** designed in Fusion 360 and printed in PETG
 
-![Finished charging station](/assets/img/posts/charging-station-finished.jpg)
-*The completed charging station on the desk, eight USB-A ports, one USB-C PD, and a bench supply in one compact unit.*
+<figure style="float: right; max-width: 45%; margin: 0 0 1em 1.5em; text-align: center;">
+  <img src="/assets/img/posts/charging-station-finished.jpg" alt="Finished charging station" style="width: 100%; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #888; margin-top: 0.3em;">The completed charging station on the desk.</figcaption>
+</figure>
 
-![Wiring diagram](https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw)
-*(Click to open interactive wiring diagram in Excalidraw)*
+[![Wiring diagram](https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw)](https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw) *(Click to open interactive wiring diagram in Excalidraw)*
+
+<div style="clear: both;"></div>
 
 ## The guts
 The core of this build is a 420W ATX power supply I picked up on Vinted for a mere **2,200 Ft**. It puts out plenty of 12V current, and I simply ran six 12V wires from the PSU bundle straight to the modules. No custom PCB, no buck converters, no fuss.
@@ -32,17 +35,22 @@ The modules themselves all came from AliExpress:
 - **1x IP2368 module** — handles the 65W USB-C Power Delivery for my laptop. Negotiates PD properly so I can charge with a single USB-C cable.
 - **1x SK120X adjustable bench power supply** — gives me a variable output for breadboarding, testing, or any random project where a fixed voltage isn't enough.
 
-![Internal modules and wiring](/assets/img/posts/charging-station-internals.jpg)
-*The guts exposed: QC 3.0 boards, IP2368 PD module, and the SK120X bench supply wired to the ATX PSU.*
+<figure style="float: right; max-width: 45%; margin: 0 0 1em 1.5em; text-align: center;">
+  <img src="/assets/img/posts/charging-station-internals.jpg" alt="Internal modules and wiring" style="width: 100%; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #888; margin-top: 0.3em;">The guts exposed: QC 3.0 boards, IP2368 PD module, and the SK120X bench supply wired to the ATX PSU.</figcaption>
+</figure>
 
 ## The case
 I knew this needed a proper home. I started with a **Printables model** for the SK120X case, imported it into **Fusion 360**, and modelled the rest of the enclosure around **GrabCAD** files of the other modules. Every cutout, every screw hole, every port position matches the real hardware.
 
 The whole thing was printed on my **upgraded Ender 6** in **PETG**, tough enough to handle the warmth from eight concurrent fast charges without warping. The hand-drawn texture of 3D printing fits the vibe.
 
-![3D printed case close-up](/assets/img/posts/charging-station-case.jpg)
-*The custom 3D printed enclosure: every port cutout and screw hole designed in Fusion 360 to match the real modules.*
+<figure style="float: left; max-width: 45%; margin: 0 1.5em 1em 0; text-align: center;">
+  <img src="/assets/img/posts/charging-station-case.jpg" alt="3D printed case close-up" style="width: 100%; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #888; margin-top: 0.3em;">The custom 3D printed enclosure: every port cutout and screw hole designed in Fusion 360 to match the real modules.</figcaption>
+</figure>
 
+<div style="clear: both;"></div>
 ## Wiring: boring is good
 There's no secret sauce in the wiring. The PSU has six 12V wires coming out of its harness. I snipped, stripped, and crimped them onto the input terminals of the USB modules, the IP2368, and the SK120X. Grounds go to ground. That's it. No switch, no fuse, no displays, just raw, reliable power distribution. Sometimes the simplest solution is the right one.
 
