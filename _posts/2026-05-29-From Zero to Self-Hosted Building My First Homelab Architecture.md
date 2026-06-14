@@ -3,7 +3,7 @@ title: From Zero to Self-Hosted Building My First Homelab Architecture
 description: >-
   A step-by-step journey from a single Raspberry Pi to a multi-node homelab
   running Proxmox, Docker, and dozens of self-hosted services, including
-  TrueNAS, Home Assistant, and more.
+  Nextcloud, Home Assistant, and more.
 date: 2026-05-29 22:00:00 +0200
 tags: []     # TAG names should always be lowercase
 ---
