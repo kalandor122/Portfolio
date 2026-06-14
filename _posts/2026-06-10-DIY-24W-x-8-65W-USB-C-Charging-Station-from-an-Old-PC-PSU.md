@@ -23,8 +23,10 @@ So I built my own charging station. Total cost: **~15,000 Ft** (~$40). It has:
   <figcaption style="font-size: 0.85em; color: #888; margin-top: 0.3em;">The completed charging station on the desk.</figcaption>
 </figure>
 
-![Charging Station Wiring Diagram](/assets/img/posts/charging-station-wiring.jpg)
-*Interactive version: [Open in Excalidraw](https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw)*
+<figure style="float: left; max-width: 45%; margin: 0 1.5em 1em 0; text-align: center;">
+  <img src="/assets/img/posts/charging-station-wiring.jpg" alt="Charging Station Wiring Diagram" style="width: 100%; border-radius: 8px;">
+  <figcaption style="font-size: 0.85em; color: #888; margin-top: 0.3em;">Interactive version: <a href="https://excalidraw.com/#json=qCJmNCoMCmXQfhtpjYQm5,NjyJEHTbe7gXoDDTya_iTw">Open in Excalidraw</a></figcaption>
+</figure>
 
 <div style="clear: both;"></div>
 
