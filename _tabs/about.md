@@ -1,6 +1,7 @@
 ---
 icon: fas fa-info-circle
 order: 1
+description: "About Füvesi Magor — 10th grader from Hungary into homelab, 3D printing, coding, and self-hosting."
 ---
 
 ## Hey there
