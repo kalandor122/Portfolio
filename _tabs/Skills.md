@@ -12,6 +12,7 @@ title: Skills
 | **Home Automation** | Full Home Assistant deployment — lights, sensors, automations, scenes |
 | **3D Printing** | Ender 3 (heavily modded) + Ender 6 (somewhat modded). PLA & PETG |
 | **Python** | Main language for scripting, automation, and backend logic |
+| **Microsoft Excel** | Data handling, formulas, macros |
 
 ## Proficient
 
@@ -22,15 +23,15 @@ title: Skills
 | **Circuit Design** | Reading schematics, prototyping, basic PCB work |
 | **Homelabbing** | Multi-node setup with Proxmox, Docker, self-hosting |
 | **Linux** | Daily Ubuntu user, basic sysadmin |
+| **Web Dev** | HTML, CSS, some JS/TS |
+| **Embedded Systems & Robotics** | Microcontrollers, sensors, robot builds — experienced and going deeper |
 
 ## Learning
 
 | Skill | Details |
 |-------|---------|
 | **TypeScript** | Getting comfortable with it |
-| **Web Dev** | HTML, CSS, some JS/TS |
 | **AI / ML** | Currently exploring |
-| **Embedded Systems** | Next big goal — microcontrollers and sensors |
 
 ---
 
