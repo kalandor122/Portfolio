@@ -49,7 +49,7 @@ I desoldered the three pins holding the old microswitch to the board, pulled it 
 
 Reverse of disassembly. Screw the daughter board back in, reconnect the ribbon cable, clip the top shell on, screw it together, stick the skates back on.
 
-One thing I'll note: the ribbon cable is fiddly. It's a ZIF (zero insertion force) connector, which means there's a tiny latch you flip up to release the cable, then flip down to lock it. If you're not careful, you can break the latch and then the cable won't stay seated. Ask me how I know. (It still worked, I just had to be more careful reassembling.)
+One thing I'll note: the ribbon cable is fiddly. It's a ZIF (zero insertion force) connector, which means there's a tiny latch you flip up to release the cable, then flip down to lock it. If you're not careful, you can break the latch and then the cable won't stay seated. The ifixit guide has a nice warning that i thankfully followed
 
 ## Was it worth it?
 
