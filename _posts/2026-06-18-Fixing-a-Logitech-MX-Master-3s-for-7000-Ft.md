@@ -5,7 +5,6 @@ description: >-
   button with a soldering iron and an AliExpress part. Total cost: 7,000 Ft
   instead of 40,000 Ft.
 date: 2026-06-18
-author: "Füvesi Magor"
 tags: [diy, electronics, mouse, logitech, soldering, repair]
 ---
 
